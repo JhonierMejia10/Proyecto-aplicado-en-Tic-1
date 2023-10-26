@@ -59,23 +59,19 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Times New Roman" size="24" style="0"/>
             </Property>
-            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="0" red="0" type="rgb"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="SISTEMA DE RIEGO AUTOMATIZADO"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="420" y="130" width="420" height="30"/>
+              <AbsoluteConstraints x="420" y="130" width="430" height="30"/>
             </Constraint>
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel4">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\jhoni\OneDrive\Documentos\GitHub\Proyecto-aplicado-en-Tic-1\Riego_automatizado\src\main\resources\Imagenes\Riego-remove.png"/>
+              <Image iconType="2" name="C:\Users\jhoni\OneDrive\Documentos\IF\Proyecto-aplicado-en-Tic-1\Riego_automatizado\src\main\resources\Imagenes\Riego-remove.png"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="jLabel4"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -94,7 +90,7 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="60" y="130" width="300" height="370"/>
+              <AbsoluteConstraints x="110" y="140" width="240" height="350"/>
             </Constraint>
           </Constraints>
 
@@ -104,6 +100,9 @@
           <SubComponents>
             <Component class="javax.swing.JButton" name="InventarioButton">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="66" green="ff" red="66" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Inventario de plantas"/>
               </Properties>
               <Events>
@@ -111,12 +110,15 @@
               </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="70" y="140" width="150" height="70"/>
+                  <AbsoluteConstraints x="40" y="140" width="160" height="70"/>
                 </Constraint>
               </Constraints>
             </Component>
             <Component class="javax.swing.JButton" name="AgregarButton">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="66" green="ff" red="66" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Agregar nueva planta"/>
               </Properties>
               <Events>
@@ -124,12 +126,15 @@
               </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="70" y="40" width="150" height="70"/>
+                  <AbsoluteConstraints x="40" y="40" width="160" height="70"/>
                 </Constraint>
               </Constraints>
             </Component>
             <Component class="javax.swing.JButton" name="SimulacionButton1">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="66" green="ff" red="66" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Empezar simulaci&#xf3;n"/>
               </Properties>
               <Events>
@@ -137,7 +142,7 @@
               </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="70" y="240" width="150" height="70"/>
+                  <AbsoluteConstraints x="40" y="240" width="160" height="70"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -149,7 +154,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\jhoni\OneDrive\Documentos\GitHub\Proyecto-aplicado-en-Tic-1\Riego_automatizado\src\main\resources\Imagenes\Background (1).jpg"/>
+              <Image iconType="2" name="C:\Users\jhoni\OneDrive\Documentos\IF\Proyecto-aplicado-en-Tic-1\Riego_automatizado\src\main\resources\Imagenes\Background (1).jpg"/>
             </Property>
           </Properties>
           <Constraints>

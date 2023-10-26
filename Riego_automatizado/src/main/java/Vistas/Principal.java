@@ -41,46 +41,47 @@ public class Principal extends javax.swing.JFrame {
         jLayeredPane1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel2.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("SISTEMA DE RIEGO AUTOMATIZADO");
-        jLayeredPane1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 130, 420, 30));
+        jLayeredPane1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 130, 430, 30));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\jhoni\\OneDrive\\Documentos\\GitHub\\Proyecto-aplicado-en-Tic-1\\Riego_automatizado\\src\\main\\resources\\Imagenes\\Riego-remove.png")); // NOI18N
-        jLabel4.setText("jLabel4");
+        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\jhoni\\OneDrive\\Documentos\\IF\\Proyecto-aplicado-en-Tic-1\\Riego_automatizado\\src\\main\\resources\\Imagenes\\Riego-remove.png")); // NOI18N
         jLayeredPane1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 140, 530, 380));
 
         jPanel1.setBackground(new java.awt.Color(0, 153, 0));
         jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        InventarioButton.setBackground(new java.awt.Color(102, 255, 102));
         InventarioButton.setText("Inventario de plantas");
         InventarioButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 InventarioButtonActionPerformed(evt);
             }
         });
-        jPanel1.add(InventarioButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 140, 150, 70));
+        jPanel1.add(InventarioButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, 160, 70));
 
+        AgregarButton.setBackground(new java.awt.Color(102, 255, 102));
         AgregarButton.setText("Agregar nueva planta");
         AgregarButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 AgregarButtonActionPerformed(evt);
             }
         });
-        jPanel1.add(AgregarButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 40, 150, 70));
+        jPanel1.add(AgregarButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 160, 70));
 
+        SimulacionButton1.setBackground(new java.awt.Color(102, 255, 102));
         SimulacionButton1.setText("Empezar simulación");
         SimulacionButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 SimulacionButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(SimulacionButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 240, 150, 70));
+        jPanel1.add(SimulacionButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 240, 160, 70));
 
-        jLayeredPane1.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 130, 300, 370));
+        jLayeredPane1.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 140, 240, 350));
 
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\jhoni\\OneDrive\\Documentos\\GitHub\\Proyecto-aplicado-en-Tic-1\\Riego_automatizado\\src\\main\\resources\\Imagenes\\Background (1).jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\jhoni\\OneDrive\\Documentos\\IF\\Proyecto-aplicado-en-Tic-1\\Riego_automatizado\\src\\main\\resources\\Imagenes\\Background (1).jpg")); // NOI18N
         jLayeredPane1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

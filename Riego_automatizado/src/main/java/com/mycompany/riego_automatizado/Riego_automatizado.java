@@ -4,12 +4,17 @@
 
 package com.mycompany.riego_automatizado;
 
-
-
+import Vistas.Principal;
 
 public class Riego_automatizado {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        try {
+            Principal principal = new Principal();
+            principal.setVisible(true);
+        } 
+        catch (Exception e) {
+            System.out.println("Ocurrio un error en el main: "+e.getMessage());
+        }
     }
 }
