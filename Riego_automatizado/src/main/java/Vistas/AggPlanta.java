@@ -28,65 +28,122 @@ public class AggPlanta extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
-        jTextField1 = new javax.swing.JTextField();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTextPane1 = new javax.swing.JTextPane();
-        jLabel1 = new javax.swing.JLabel();
+        jTextFieldNombre = new javax.swing.JTextField();
+        jLabelCantPlantas = new javax.swing.JLabel();
+        jLabelHumedadMin = new javax.swing.JLabel();
+        jLabelViewAgg = new javax.swing.JLabel();
+        jlabelNombre = new javax.swing.JLabel();
+        jTextFieldNivelMin = new javax.swing.JTextField();
+        jTextFieldCantidad = new javax.swing.JTextField();
+        jLabelHumedadMax = new javax.swing.JLabel();
+        jTextFieldNivelMax = new javax.swing.JTextField();
+        bttn_agg_planta = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setForeground(new java.awt.Color(153, 153, 255));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel2.setBackground(new java.awt.Color(0, 153, 0));
+        jPanel2.setBackground(new java.awt.Color(0, 204, 153));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+        jTextFieldNombre.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
+                jTextFieldNombreActionPerformed(evt);
             }
         });
-        jPanel2.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 70, 130, -1));
+        jPanel2.add(jTextFieldNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, 130, -1));
 
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 210, 170, 20));
+        jLabelCantPlantas.setBackground(new java.awt.Color(0, 0, 0));
+        jLabelCantPlantas.setForeground(new java.awt.Color(0, 0, 0));
+        jLabelCantPlantas.setText("Cantidad de plantas");
+        jPanel2.add(jLabelCantPlantas, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 90, -1, -1));
 
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("Nombre: ");
-        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 50, -1, -1));
+        jLabelHumedadMin.setBackground(new java.awt.Color(0, 0, 0));
+        jLabelHumedadMin.setForeground(new java.awt.Color(0, 0, 0));
+        jLabelHumedadMin.setText("Nivel de humedad mínimo: ");
+        jPanel2.add(jLabelHumedadMin, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 150, 170, 20));
 
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setText("Nivel de humedad máximo ");
-        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 130, 170, 20));
+        jLabelViewAgg.setBackground(new java.awt.Color(0, 0, 0));
+        jLabelViewAgg.setFont(new java.awt.Font("Segoe UI", 3, 24)); // NOI18N
+        jLabelViewAgg.setForeground(new java.awt.Color(0, 0, 0));
+        jLabelViewAgg.setText("Agregar plantas");
+        jPanel2.add(jLabelViewAgg, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, -1, -1));
 
-        jScrollPane1.setViewportView(jTextPane1);
+        jlabelNombre.setBackground(new java.awt.Color(0, 0, 0));
+        jlabelNombre.setForeground(new java.awt.Color(0, 0, 0));
+        jlabelNombre.setText("Nombre: ");
+        jPanel2.add(jlabelNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, -1, -1));
 
-        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 180, -1, -1));
+        jTextFieldNivelMin.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextFieldNivelMinActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jTextFieldNivelMin, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 170, 130, -1));
 
-        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 70, 740, 460));
+        jTextFieldCantidad.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextFieldCantidadActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jTextFieldCantidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 110, 130, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\jhoni\\OneDrive\\Documentos\\IF\\Proyecto-aplicado-en-Tic-1\\Riego_automatizado\\src\\main\\resources\\Imagenes\\Background (1).jpg")); // NOI18N
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-2, -4, 910, 610));
+        jLabelHumedadMax.setBackground(new java.awt.Color(0, 0, 0));
+        jLabelHumedadMax.setForeground(new java.awt.Color(0, 0, 0));
+        jLabelHumedadMax.setText("Nivel de humedad máximo: ");
+        jPanel2.add(jLabelHumedadMax, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 150, 170, 20));
+
+        jTextFieldNivelMax.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextFieldNivelMaxActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jTextFieldNivelMax, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 170, 130, -1));
+
+        bttn_agg_planta.setText("Agregar");
+        bttn_agg_planta.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bttn_agg_plantaActionPerformed(evt);
+            }
+        });
+        jPanel2.add(bttn_agg_planta, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, 200, 60));
+
+        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 410, 330));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void jTextFieldNombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldNombreActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }//GEN-LAST:event_jTextFieldNombreActionPerformed
+
+    private void jTextFieldNivelMinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldNivelMinActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldNivelMinActionPerformed
+
+    private void jTextFieldCantidadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldCantidadActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldCantidadActionPerformed
+
+    private void jTextFieldNivelMaxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldNivelMaxActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldNivelMaxActionPerformed
+
+    private void bttn_agg_plantaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bttn_agg_plantaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bttn_agg_plantaActionPerformed
 
     /**
      * @param args the command line arguments
@@ -124,14 +181,17 @@ public class AggPlanta extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
+    private javax.swing.JButton bttn_agg_planta;
+    private javax.swing.JLabel jLabelCantPlantas;
+    private javax.swing.JLabel jLabelHumedadMax;
+    private javax.swing.JLabel jLabelHumedadMin;
+    private javax.swing.JLabel jLabelViewAgg;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextPane jTextPane1;
+    private javax.swing.JTextField jTextFieldCantidad;
+    private javax.swing.JTextField jTextFieldNivelMax;
+    private javax.swing.JTextField jTextFieldNivelMin;
+    private javax.swing.JTextField jTextFieldNombre;
+    private javax.swing.JLabel jlabelNombre;
     // End of variables declaration//GEN-END:variables
 }

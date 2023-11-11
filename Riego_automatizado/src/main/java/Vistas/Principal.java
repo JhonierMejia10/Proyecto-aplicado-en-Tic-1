@@ -43,8 +43,6 @@ public class Principal extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
         jLabel2.setText("SISTEMA DE RIEGO AUTOMATIZADO");
         jLayeredPane1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 130, 430, 30));
-
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\jhoni\\OneDrive\\Documentos\\IF\\Proyecto-aplicado-en-Tic-1\\Riego_automatizado\\src\\main\\resources\\Imagenes\\Riego-remove.png")); // NOI18N
         jLayeredPane1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 140, 530, 380));
 
         jPanel1.setBackground(new java.awt.Color(0, 153, 0));
@@ -81,7 +79,6 @@ public class Principal extends javax.swing.JFrame {
         jLayeredPane1.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 140, 240, 350));
 
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\jhoni\\OneDrive\\Documentos\\IF\\Proyecto-aplicado-en-Tic-1\\Riego_automatizado\\src\\main\\resources\\Imagenes\\Background (1).jpg")); // NOI18N
         jLayeredPane1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
