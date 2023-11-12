@@ -10,9 +10,8 @@ package Vistas;
  */
 public class AggPlanta extends javax.swing.JFrame {
 
-    /**
-     * Creates new form AggPlanta
-     */
+    Principal principal = new Principal();
+    
     public AggPlanta() {
         initComponents();
     }
@@ -142,7 +141,12 @@ public class AggPlanta extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextFieldNivelMaxActionPerformed
 
     private void bttn_agg_plantaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bttn_agg_plantaActionPerformed
-        // TODO add your handling code here:
+        principal.t_table[0]=jTextFieldNombre.getText();
+        principal.t_table[1]=jTextFieldCantidad.getText();
+        principal.t_table[2]=jTextFieldNivelMax.getText();
+        principal.t_table[2]=jTextFieldNivelMin.getText();
+        
+        this.setVisible(false);
     }//GEN-LAST:event_bttn_agg_plantaActionPerformed
 
     /**
